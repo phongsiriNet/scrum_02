@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/7f8820d271.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ลงทะเบียน</title>
+    <title>Login</title>
     <style>
-       
-        form {
+         form {
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            height: 300px;
         }
 
         label {
@@ -60,39 +62,25 @@
             font-weight: bold;
             font-size: 15px;
         }
+        
     </style>
 </head>
 <body>
-    <div id="image-container">
-        <img src="https://cats.com/wp-content/themes/ribosome/img/home/cat-laptop.png" alt="" width="600px" height="600px">
-    </div>
-
-    <div id="" >
-    <form>
-        <h2>ลงทะเบียน</h2>
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-
-        <label for="password">ชื่อ</label>
-        <input type="text" id="password" name="password" required>
-
-        <label for="password">ที่อยู่</label>
-        <input type="text" id="password" name="password" required>
-
-        <label for="password">ID Line</label>
-        <input type="text" id="password" name="password" required>
-
-        <button type="submit" class="bold-text">ลงทะเบียน</button>
-    </form>
-    </div>
-
+    <form >
+    <div id="login-container">
+        <h2></h2>
+        <i class="fa-solid fa-cat fa-2xl " style="color: #000000; font-size: 3em;"> Philo</i> 
+        <h2>เข้าสู่ระบบ</h2>        
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
     
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
 
+            <button type="submit" class="bold-text">login</button>
+        </form>
+    </div>
+</form>
 </body>
 </html>
